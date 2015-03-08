@@ -12,7 +12,7 @@ myload <- function() {
 }
 
 plot1 <- function(data) {
-	plot(data$NewDate, data$Global_reactive_power, type="o", pch=".", xlab="", ylab="Global_rctive_power")
+	plot(data$NewDate, data$Global_reactive_power, type="o", pch=".", xlab="", ylab="Global Active Power")
 }
 
 plot2 <- function(data) {
@@ -27,7 +27,7 @@ plot3 <- function(data) {
 }
 
 plot4 <- function(data) {
-	plot(data$NewDate, data$Global_reactive_power, type="o", pch=".", xlab="datetime")
+	plot(data$NewDate, data$Global_reactive_power, type="o", pch=".", xlab="datetime", ylab="Global_reactive_power")
 }
 
 myplot <- function() {
